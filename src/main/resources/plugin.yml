@@ -1,0 +1,14 @@
+name: HerobrineStalker
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: A stalking Herobrine NPC that disappears after being watched for five seconds.
+commands:
+  herobrine:
+    description: Controls the Herobrine stalker.
+    usage: /herobrine <on|off|spawn>
+    permission: herobrine.use
+permissions:
+  herobrine.use:
+    description: Allows control of the Herobrine stalker.
+    default: op
